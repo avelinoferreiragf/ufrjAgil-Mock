@@ -34,7 +34,6 @@ public class IncrementadorTest {
 
 		Integer valorRecebido =  incrementador.incrementar(objeto, valorDoIncremento);
 
-
 		assertThat(valorRecebido, equalTo(valorEsperado));
 	}
 
